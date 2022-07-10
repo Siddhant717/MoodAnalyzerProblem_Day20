@@ -16,13 +16,13 @@ namespace MoodAnalyzerProblem
         //Creating method for Analysing the mood
         public string AnalyseMood()
         {
-            if (message.Contains("Sad"))
+            if (message.Contains("Happy"))
             {
-                return "SAD";
+                return "HAPPY MOOD";
             }
             else
             {
-                return "HAPPY";
+                return "SAD MOOD";
             }
         }
     }
